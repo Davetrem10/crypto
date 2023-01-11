@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap');
+ 
+ 
+ body {
+    background-color: #1E1E1E;
+     color: white; 
+     font-weight: 600;
+    
+} 
+
+img {
+    width: 100%;
+}
+
+.gr {
+   color: #e2b3b3;
+}
+
+ .navbar {
+     box-shadow:
+        #0000;
+ }
+
+
+
+ li  {
+     display: inline;
+       /* margin: 20px;   */
+       margin-left: 15px ;
+       margin-right: 15px ;
+      
+    
+
+ }
+
+ li a {
+   
+    text-decoration: none;
+     color: white;
+    
+ }
+
+ .iya {
+    margin-left: 180px;  
+ }
+
+ .out {
+     color: #6197FB;
+      border:1px solid #6197FB;
+       border-radius: 8px ;
+ }
+
+ /* ---hero--- */
+
+  h1 {
+     font-size: 52px ;
+     font-family: 'Inter', sans-serif;
+  }
+
+  h2 {
+   font-family: 'Inter', sans-serif;
+    font-weight: 700;
+  }
+
+  .gege{
+
+    width: 150px ;
+  }
+
+  /* ---first-- */
+
+  .immco {
+     border-top: 1px solid rgb(73, 55, 55);
+     border-bottom: 1px solid rgb(73, 55, 55)  ;
+     cursor: pointer;
+    
+     padding: 20px ;
+  }
+
+  /* ---second--- */
+
+  .cry {
+    margin-top: 120px ;
+  }
+
+  .sa {
+     background-color:  #D6A406;
+     height: 40px ;
+        margin-top: 10px ;
+    
+     text-align: center;
+     padding: 8px ;
+      border-radius: 4px ;
+  }
+
+  .sa i {
+    scale: 2.2;
+  
+  }
+  .sb i {
+    scale: 2.2;
+  
+  }
+  .sc i {
+    scale: 2.2;
+  
+  }
+  
+
+  .sb {
+
+   background-color:  #9B51E0 ;
+   height: 40px ;
+      margin-top: 10px ;
+  
+   text-align: center;
+   padding: 8px ;
+    border-radius: 4px ;
+ 
+  }
+
+  .sc {
+
+   background-color:  #EB5757;
+   height: 40px ;
+      margin-top: 10px ;
+  
+   text-align: center;
+   padding: 8px ;
+    border-radius: 4px ;
+  }
+
+  
+
+  /* ---Third--- */
+
+    .MTEE {
+       margin-top: 110px ;
+    }
+
+    .stat {
+       margin-top: 30px ;
+   }
+
+   /* ---NEWS section-- */
+
+   .niew {
+       margin-top: 90px ;
+   }
+
+   .neo {
+       margin-top: 40px ;
+        margin-bottom: 140px ;
+   }
+   
+   .card-body {
+       background-color: #9B51E0;
+   } 
+
+   .bod  {
+      background-color: rgb(83, 73, 73);
+      padding: 5px ;
+   }
+
+   .boo {
+       border-radius: 30px ;
+        margin-left: 5px ;
+        width: 140px ;
+         margin-top: 3px;
+          margin-bottom: 3px ;
+        
+   }
+
+   /* ---footer--- */
+
+   footer {
+      background-color:#0A0A0A;
+       margin-top: 30px ;
+       
+    }
+
+     footer li a {
+          color: #EEEFF4;
+           text-decoration: none;
+           line-height: 38px;
+     }
+
+     footer li a:hover {
+         color: white;
+          text-decoration: underline;
+    }
+
+     footer a i {
+          color: white;
+           font-size: 20px;
+              float: right;
+               margin: 7px;
+     }
+
+     .lee {
+       display: list-item;
+       margin-left: 0px;
+        margin-right: 0px ;
+     }
+
