@@ -2,7 +2,7 @@
  
  
  body {
-    background-color: #1E1E1E;
+    background-color: #000000;
      color: white; 
      font-weight: 600;
     
@@ -12,14 +12,16 @@ img {
     width: 100%;
 }
 
-.gr {
-   color: #e2b3b3;
-}
 
- .navbar {
-     box-shadow:
-        #0000;
- }
+/* :root {
+   
+ 
+    --box-shadow: 0 8px 22px rgba(236, 221, 221, 0.822);
+} */
+
+.navbar  {
+    box-shadow: var(--box-shadow);
+}
 
 
 
@@ -42,16 +44,21 @@ img {
 
  .iya {
     margin-left: 180px;  
+      margin-top: 10px;
  }
 
  .out {
      color: #6197FB;
       border:1px solid #6197FB;
        border-radius: 8px ;
+        padding: 13px ;
+         width: 110px ;
  }
 
  /* ---hero--- */
 
+
+  
   h1 {
      font-size: 52px ;
      font-family: 'Inter', sans-serif;
@@ -60,49 +67,60 @@ img {
   h2 {
    font-family: 'Inter', sans-serif;
     font-weight: 700;
+     font-size: 48px ;
   }
 
   .gege{
 
-    width: 150px ;
+    width: 190px ;
+     margin-top: 20px ;
+      padding: 10px ;
   }
 
-  /* ---first-- */
+  
 
   .immco {
      border-top: 1px solid rgb(73, 55, 55);
      border-bottom: 1px solid rgb(73, 55, 55)  ;
      cursor: pointer;
+     margin-top: 70px;
     
      padding: 20px ;
   }
 
-  /* ---second--- */
+  
 
-  .cry {
+  /* ---first--- */
+
+  /* .cry {
     margin-top: 120px ;
-  }
+  } */
 
   .sa {
      background-color:  #D6A406;
      height: 40px ;
         margin-top: 10px ;
+         scale: 1.4;
+          width: 40px ;
     
      text-align: center;
-     padding: 8px ;
+       padding: 8px ;  
       border-radius: 4px ;
+      
   }
 
   .sa i {
-    scale: 2.2;
+     scale: 1.7; 
+     /* transform: translateY(-5px ); */
   
   }
   .sb i {
-    scale: 2.2;
-  
+    scale: 1.8;
+      
+    
   }
   .sc i {
-    scale: 2.2;
+    scale: 1.7;
   
   }
   
@@ -112,9 +130,11 @@ img {
    background-color:  #9B51E0 ;
    height: 40px ;
       margin-top: 10px ;
+       width: 40px ;
+        scale: 1.4 ;
   
    text-align: center;
-   padding: 8px ;
+    padding: 8px ; 
     border-radius: 4px ;
  
   }
@@ -122,17 +142,21 @@ img {
   .sc {
 
    background-color:  #EB5757;
+
    height: 40px ;
-      margin-top: 10px ;
+   margin-top: 10px ;
+    width: 40px ;
+     scale: 1.4 ;
+
+text-align: center;
+ padding: 8px ; 
+ border-radius: 4px ;
   
-   text-align: center;
-   padding: 8px ;
-    border-radius: 4px ;
   }
 
   
 
-  /* ---Third--- */
+  /* ---second --- */
 
     .MTEE {
        margin-top: 110px ;
@@ -159,15 +183,18 @@ img {
 
    .bod  {
       background-color: rgb(83, 73, 73);
-      padding: 5px ;
+      padding: 15px ;
    }
 
    .boo {
        border-radius: 30px ;
         margin-left: 5px ;
         width: 140px ;
+         padding:  2px 24px ;
+          font-size: 20px ;
          margin-top: 3px;
           margin-bottom: 3px ;
+           background-color: #A9A0FF;
         
    }
 
@@ -203,3 +230,40 @@ img {
         margin-right: 0px ;
      }
 
+
+
+      @media only screen and (max-width: 767px) {
+          
+        .navbar {
+          margin-bottom: 14rem;
+        } 
+        
+          .cry {
+    margin-top: 7rem ;
+  }  
+
+
+      }
+      @media only screen and (max-width: 400px) {
+        
+          .cry {
+    margin-top: 12rem ;
+  }  
+
+
+      }
+
+      @media only screen and (max-width: 991px) {
+
+           .navbar-toggler {
+              
+               background-color: white;
+           }
+
+            h2 {
+                font-size: 38px ;
+            }
+
+      }
+
+  
